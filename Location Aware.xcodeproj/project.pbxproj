@@ -7,22 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6AA729F922FDFEEB00C49260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA729F822FDFEEB00C49260 /* Assets.xcassets */; };
 		6AE8E01922EBC4E300FAEE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */; };
 		6AE8E01B22EBC4E300FAEE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */; };
 		6AE8E01E22EBC4E300FAEE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8E01C22EBC4E300FAEE57 /* Main.storyboard */; };
 		6AE8E02122EBC4E300FAEE57 /* Location_Aware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01F22EBC4E300FAEE57 /* Location_Aware.xcdatamodeld */; };
-		6AE8E02322EBC4E400FAEE57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8E02222EBC4E400FAEE57 /* Assets.xcassets */; };
 		6AE8E02622EBC4E400FAEE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8E02422EBC4E400FAEE57 /* LaunchScreen.storyboard */; };
 		6AE8E02F22EBC51F00FAEE57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE8E02E22EBC51F00FAEE57 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6AA729F822FDFEEB00C49260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
 		6AE8E01522EBC4E300FAEE57 /* Location Aware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Aware.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		6AE8E01D22EBC4E300FAEE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6AE8E02022EBC4E300FAEE57 /* Location_Aware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Location_Aware.xcdatamodel; sourceTree = "<group>"; };
-		6AE8E02222EBC4E400FAEE57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6AE8E02522EBC4E400FAEE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6AE8E02722EBC4E400FAEE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6AE8E02E22EBC51F00FAEE57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
@@ -63,8 +63,8 @@
 				6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */,
 				6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */,
 				6AE8E01C22EBC4E300FAEE57 /* Main.storyboard */,
-				6AE8E02222EBC4E400FAEE57 /* Assets.xcassets */,
 				6AE8E02422EBC4E400FAEE57 /* LaunchScreen.storyboard */,
+				6AA729F822FDFEEB00C49260 /* Assets.xcassets */,
 				6AE8E02722EBC4E400FAEE57 /* Info.plist */,
 				6AE8E01F22EBC4E300FAEE57 /* Location_Aware.xcdatamodeld */,
 			);
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6AE8E02622EBC4E400FAEE57 /* LaunchScreen.storyboard in Resources */,
-				6AE8E02322EBC4E400FAEE57 /* Assets.xcassets in Resources */,
+				6AA729F922FDFEEB00C49260 /* Assets.xcassets in Resources */,
 				6AE8E01E22EBC4E300FAEE57 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

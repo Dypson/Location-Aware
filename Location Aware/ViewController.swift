@@ -8,6 +8,7 @@
 
 import UIKit
 import MapKit
+import CoreLocation
 class ViewController: UIViewController,CLLocationManagerDelegate {
     @IBOutlet weak var lblDisplay: UILabel!
     var locationManager = CLLocationManager()
@@ -31,9 +32,9 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         
         CLGeocoder().reverseGeocodeLocation(locations[0]) {(placemarks,error) in
             if error != nil{
-                 print("Error Found")
+                 self.lblDisplay.text="Turn On GPS to find your location"
             }else{
-                nearestAddress=(placemarks?[0].subThoroughfare!)!+" "+(placemarks?[0].thoroughfare)!+"\n"+(placemarks?[0].subAdministrativeArea)!+"\n"+(placemarks?[0].postalCode)!+"\n"+(placemarks?[0].country)!
+                nearestAddress=(placemarks?[0].subThoroughfare!)!+" "+(placemarks?[0].thoroughfare)!+", "+(placemarks?[0].subAdministrativeArea)!+", "+(placemarks?[0].postalCode)!+", "+(placemarks?[0].country)!
                //print(nearestAddress)
           self.lblDisplay.text=nearestAddress
 
