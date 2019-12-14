@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="7Ry-ES-wHP">
+    <device id="retina5_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="RjW-Lx-EiS">
+            <objects>
+                <viewController id="7Ry-ES-wHP" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="6gC-wf-qcu">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mlk-K7-Xnp">
+                                <rect key="frame" x="26" y="252" width="362" height="339"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="mlk-K7-Xnp" secondAttribute="height" multiplier="323:270" id="L3B-pa-qU3"/>
+                                    <constraint firstAttribute="height" constant="270" id="Vsq-ex-ym9"/>
+                                    <constraint firstAttribute="width" constant="323" id="mrM-gJ-KIh"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="trackBtn"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="DUr-51-MXr"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap here to see your Location" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="geg-cV-QEP">
+                                <rect key="frame" x="0.0" y="174.66666666666666" width="414" height="23.333333333333343"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="geg-cV-QEP" secondAttribute="height" multiplier="125:7" id="p2O-GD-W2M"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" systemColor="secondarySystemGroupedBackgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="tertiaryLabelColor" red="0.23529411759999999" green="0.23529411759999999" blue="0.26274509800000001" alpha="0.29999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="geg-cV-QEP" firstAttribute="trailing" secondItem="gex-uN-QPP" secondAttribute="trailing" id="1SV-Y5-bPG"/>
+                            <constraint firstItem="gex-uN-QPP" firstAttribute="trailing" secondItem="mlk-K7-Xnp" secondAttribute="trailing" constant="26" id="57R-91-iH6"/>
+                            <constraint firstItem="mlk-K7-Xnp" firstAttribute="top" secondItem="geg-cV-QEP" secondAttribute="bottom" constant="54" id="6aK-jf-VHj"/>
+                            <constraint firstItem="geg-cV-QEP" firstAttribute="leading" secondItem="gex-uN-QPP" secondAttribute="leading" id="7kA-X2-BeX"/>
+                            <constraint firstItem="gex-uN-QPP" firstAttribute="bottom" secondItem="mlk-K7-Xnp" secondAttribute="bottom" constant="145" id="atP-B9-qex"/>
+                            <constraint firstItem="mlk-K7-Xnp" firstAttribute="top" secondItem="gex-uN-QPP" secondAttribute="top" constant="252" id="gxl-Ua-Yo8"/>
+                            <constraint firstItem="gex-uN-QPP" firstAttribute="bottom" secondItem="mlk-K7-Xnp" secondAttribute="bottom" constant="145" id="j1n-gd-bxn"/>
+                            <constraint firstItem="mlk-K7-Xnp" firstAttribute="leading" secondItem="gex-uN-QPP" secondAttribute="leading" constant="26" id="sLx-GU-8UU"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="gex-uN-QPP"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="a4A-78-prX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1492" y="22.938530734632685"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <viewController modalPresentationStyle="fullScreen" id="BYZ-38-t0r" customClass="ViewController" customModule="Finding_User_Locations" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="6AX-6O-GpE">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </mapView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6AX-6O-GpE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="Co2-Yu-BHo"/>
+                            <constraint firstItem="6AX-6O-GpE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="YR6-wf-PGf"/>
+                            <constraint firstItem="6AX-6O-GpE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="iTO-6b-fK5"/>
+                            <constraint firstItem="6AX-6O-GpE" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="tsW-o2-t6Q"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="te9-R5-nbf"/>
+                    <connections>
+                        <outlet property="map" destination="6AX-6O-GpE" id="UxS-pi-UBc"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-664" y="26"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="trackBtn" width="512" height="512"/>
+    </resources>
+</document>

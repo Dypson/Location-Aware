@@ -7,74 +7,74 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6AA729F922FDFEEB00C49260 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AA729F822FDFEEB00C49260 /* Assets.xcassets */; };
-		6AE8E01922EBC4E300FAEE57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */; };
-		6AE8E01B22EBC4E300FAEE57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */; };
-		6AE8E01E22EBC4E300FAEE57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8E01C22EBC4E300FAEE57 /* Main.storyboard */; };
-		6AE8E02122EBC4E300FAEE57 /* Location_Aware.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6AE8E01F22EBC4E300FAEE57 /* Location_Aware.xcdatamodeld */; };
-		6AE8E02622EBC4E400FAEE57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AE8E02422EBC4E400FAEE57 /* LaunchScreen.storyboard */; };
-		6AE8E02F22EBC51F00FAEE57 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE8E02E22EBC51F00FAEE57 /* CoreLocation.framework */; };
+		6A6BB6B122E94B6F001C69CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */; };
+		6A6BB6B322E94B6F001C69CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B222E94B6F001C69CA /* ViewController.swift */; };
+		6A6BB6B622E94B6F001C69CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B422E94B6F001C69CA /* Main.storyboard */; };
+		6A6BB6B922E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B722E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld */; };
+		6A6BB6BB22E94B70001C69CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6BA22E94B70001C69CA /* Assets.xcassets */; };
+		6A6BB6BE22E94B70001C69CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6BC22E94B70001C69CA /* LaunchScreen.storyboard */; };
+		6A6BB6C722E95282001C69CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6BB6C622E95282001C69CA /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6AA729F822FDFEEB00C49260 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../../.Trash/Assets.xcassets; sourceTree = "<group>"; };
-		6AE8E01522EBC4E300FAEE57 /* Location Aware.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Location Aware.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6AE8E01D22EBC4E300FAEE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		6AE8E02022EBC4E300FAEE57 /* Location_Aware.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Location_Aware.xcdatamodel; sourceTree = "<group>"; };
-		6AE8E02522EBC4E400FAEE57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6AE8E02722EBC4E400FAEE57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		6AE8E02E22EBC51F00FAEE57 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6A6BB6AD22E94B6F001C69CA /* Finding User Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finding User Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6A6BB6B222E94B6F001C69CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6A6BB6B522E94B6F001C69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6A6BB6B822E94B6F001C69CA /* Finding_User_Locations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Finding_User_Locations.xcdatamodel; sourceTree = "<group>"; };
+		6A6BB6BA22E94B70001C69CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6A6BB6BD22E94B70001C69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6A6BB6BF22E94B70001C69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6BB6C622E95282001C69CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6AE8E01222EBC4E300FAEE57 /* Frameworks */ = {
+		6A6BB6AA22E94B6F001C69CA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE8E02F22EBC51F00FAEE57 /* CoreLocation.framework in Frameworks */,
+				6A6BB6C722E95282001C69CA /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6AE8E00C22EBC4E300FAEE57 = {
+		6A6BB6A422E94B6F001C69CA = {
 			isa = PBXGroup;
 			children = (
-				6AE8E01722EBC4E300FAEE57 /* Location Aware */,
-				6AE8E01622EBC4E300FAEE57 /* Products */,
-				6AE8E02D22EBC51F00FAEE57 /* Frameworks */,
+				6A6BB6AF22E94B6F001C69CA /* Finding User Locations */,
+				6A6BB6AE22E94B6F001C69CA /* Products */,
+				6A6BB6C522E95282001C69CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		6AE8E01622EBC4E300FAEE57 /* Products */ = {
+		6A6BB6AE22E94B6F001C69CA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6AE8E01522EBC4E300FAEE57 /* Location Aware.app */,
+				6A6BB6AD22E94B6F001C69CA /* Finding User Locations.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6AE8E01722EBC4E300FAEE57 /* Location Aware */ = {
+		6A6BB6AF22E94B6F001C69CA /* Finding User Locations */ = {
 			isa = PBXGroup;
 			children = (
-				6AE8E01822EBC4E300FAEE57 /* AppDelegate.swift */,
-				6AE8E01A22EBC4E300FAEE57 /* ViewController.swift */,
-				6AE8E01C22EBC4E300FAEE57 /* Main.storyboard */,
-				6AE8E02422EBC4E400FAEE57 /* LaunchScreen.storyboard */,
-				6AA729F822FDFEEB00C49260 /* Assets.xcassets */,
-				6AE8E02722EBC4E400FAEE57 /* Info.plist */,
-				6AE8E01F22EBC4E300FAEE57 /* Location_Aware.xcdatamodeld */,
+				6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */,
+				6A6BB6B222E94B6F001C69CA /* ViewController.swift */,
+				6A6BB6B422E94B6F001C69CA /* Main.storyboard */,
+				6A6BB6BA22E94B70001C69CA /* Assets.xcassets */,
+				6A6BB6BC22E94B70001C69CA /* LaunchScreen.storyboard */,
+				6A6BB6BF22E94B70001C69CA /* Info.plist */,
+				6A6BB6B722E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld */,
 			);
-			path = "Location Aware";
+			path = "Finding User Locations";
 			sourceTree = "<group>";
 		};
-		6AE8E02D22EBC51F00FAEE57 /* Frameworks */ = {
+		6A6BB6C522E95282001C69CA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6AE8E02E22EBC51F00FAEE57 /* CoreLocation.framework */,
+				6A6BB6C622E95282001C69CA /* CoreLocation.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -82,39 +82,39 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6AE8E01422EBC4E300FAEE57 /* Location Aware */ = {
+		6A6BB6AC22E94B6F001C69CA /* Finding User Locations */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6AE8E02A22EBC4E400FAEE57 /* Build configuration list for PBXNativeTarget "Location Aware" */;
+			buildConfigurationList = 6A6BB6C222E94B70001C69CA /* Build configuration list for PBXNativeTarget "Finding User Locations" */;
 			buildPhases = (
-				6AE8E01122EBC4E300FAEE57 /* Sources */,
-				6AE8E01222EBC4E300FAEE57 /* Frameworks */,
-				6AE8E01322EBC4E300FAEE57 /* Resources */,
+				6A6BB6A922E94B6F001C69CA /* Sources */,
+				6A6BB6AA22E94B6F001C69CA /* Frameworks */,
+				6A6BB6AB22E94B6F001C69CA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Location Aware";
-			productName = "Location Aware";
-			productReference = 6AE8E01522EBC4E300FAEE57 /* Location Aware.app */;
+			name = "Finding User Locations";
+			productName = "Finding User Locations";
+			productReference = 6A6BB6AD22E94B6F001C69CA /* Finding User Locations.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		6AE8E00D22EBC4E300FAEE57 /* Project object */ = {
+		6A6BB6A522E94B6F001C69CA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1030;
 				LastUpgradeCheck = 1030;
 				ORGANIZATIONNAME = Deepson;
 				TargetAttributes = {
-					6AE8E01422EBC4E300FAEE57 = {
+					6A6BB6AC22E94B6F001C69CA = {
 						CreatedOnToolsVersion = 10.3;
 					};
 				};
 			};
-			buildConfigurationList = 6AE8E01022EBC4E300FAEE57 /* Build configuration list for PBXProject "Location Aware" */;
+			buildConfigurationList = 6A6BB6A822E94B6F001C69CA /* Build configuration list for PBXProject "Finding User Locations" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -122,55 +122,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 6AE8E00C22EBC4E300FAEE57;
-			productRefGroup = 6AE8E01622EBC4E300FAEE57 /* Products */;
+			mainGroup = 6A6BB6A422E94B6F001C69CA;
+			productRefGroup = 6A6BB6AE22E94B6F001C69CA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6AE8E01422EBC4E300FAEE57 /* Location Aware */,
+				6A6BB6AC22E94B6F001C69CA /* Finding User Locations */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		6AE8E01322EBC4E300FAEE57 /* Resources */ = {
+		6A6BB6AB22E94B6F001C69CA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE8E02622EBC4E400FAEE57 /* LaunchScreen.storyboard in Resources */,
-				6AA729F922FDFEEB00C49260 /* Assets.xcassets in Resources */,
-				6AE8E01E22EBC4E300FAEE57 /* Main.storyboard in Resources */,
+				6A6BB6BE22E94B70001C69CA /* LaunchScreen.storyboard in Resources */,
+				6A6BB6BB22E94B70001C69CA /* Assets.xcassets in Resources */,
+				6A6BB6B622E94B6F001C69CA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		6AE8E01122EBC4E300FAEE57 /* Sources */ = {
+		6A6BB6A922E94B6F001C69CA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6AE8E02122EBC4E300FAEE57 /* Location_Aware.xcdatamodeld in Sources */,
-				6AE8E01B22EBC4E300FAEE57 /* ViewController.swift in Sources */,
-				6AE8E01922EBC4E300FAEE57 /* AppDelegate.swift in Sources */,
+				6A6BB6B922E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld in Sources */,
+				6A6BB6B322E94B6F001C69CA /* ViewController.swift in Sources */,
+				6A6BB6B122E94B6F001C69CA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		6AE8E01C22EBC4E300FAEE57 /* Main.storyboard */ = {
+		6A6BB6B422E94B6F001C69CA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6AE8E01D22EBC4E300FAEE57 /* Base */,
+				6A6BB6B522E94B6F001C69CA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		6AE8E02422EBC4E400FAEE57 /* LaunchScreen.storyboard */ = {
+		6A6BB6BC22E94B70001C69CA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				6AE8E02522EBC4E400FAEE57 /* Base */,
+				6A6BB6BD22E94B70001C69CA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -178,7 +178,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		6AE8E02822EBC4E400FAEE57 /* Debug */ = {
+		6A6BB6C022E94B70001C69CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -239,7 +239,7 @@
 			};
 			name = Debug;
 		};
-		6AE8E02922EBC4E400FAEE57 /* Release */ = {
+		6A6BB6C122E94B70001C69CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,36 +294,36 @@
 			};
 			name = Release;
 		};
-		6AE8E02B22EBC4E400FAEE57 /* Debug */ = {
+		6A6BB6C322E94B70001C69CA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N56U5RLW2C;
-				INFOPLIST_FILE = "Location Aware/Info.plist";
+				INFOPLIST_FILE = "Finding User Locations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Deepson-Khadka.Location-Aware";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepson-Khadka.Finding-User-Locations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		6AE8E02C22EBC4E400FAEE57 /* Release */ = {
+		6A6BB6C422E94B70001C69CA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N56U5RLW2C;
-				INFOPLIST_FILE = "Location Aware/Info.plist";
+				INFOPLIST_FILE = "Finding User Locations/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Deepson-Khadka.Location-Aware";
+				PRODUCT_BUNDLE_IDENTIFIER = "Deepson-Khadka.Finding-User-Locations";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -333,20 +333,20 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6AE8E01022EBC4E300FAEE57 /* Build configuration list for PBXProject "Location Aware" */ = {
+		6A6BB6A822E94B6F001C69CA /* Build configuration list for PBXProject "Finding User Locations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AE8E02822EBC4E400FAEE57 /* Debug */,
-				6AE8E02922EBC4E400FAEE57 /* Release */,
+				6A6BB6C022E94B70001C69CA /* Debug */,
+				6A6BB6C122E94B70001C69CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6AE8E02A22EBC4E400FAEE57 /* Build configuration list for PBXNativeTarget "Location Aware" */ = {
+		6A6BB6C222E94B70001C69CA /* Build configuration list for PBXNativeTarget "Finding User Locations" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6AE8E02B22EBC4E400FAEE57 /* Debug */,
-				6AE8E02C22EBC4E400FAEE57 /* Release */,
+				6A6BB6C322E94B70001C69CA /* Debug */,
+				6A6BB6C422E94B70001C69CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -354,17 +354,17 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		6AE8E01F22EBC4E300FAEE57 /* Location_Aware.xcdatamodeld */ = {
+		6A6BB6B722E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				6AE8E02022EBC4E300FAEE57 /* Location_Aware.xcdatamodel */,
+				6A6BB6B822E94B6F001C69CA /* Finding_User_Locations.xcdatamodel */,
 			);
-			currentVersion = 6AE8E02022EBC4E300FAEE57 /* Location_Aware.xcdatamodel */;
-			path = Location_Aware.xcdatamodeld;
+			currentVersion = 6A6BB6B822E94B6F001C69CA /* Finding_User_Locations.xcdatamodel */;
+			path = Finding_User_Locations.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
 /* End XCVersionGroup section */
 	};
-	rootObject = 6AE8E00D22EBC4E300FAEE57 /* Project object */;
+	rootObject = 6A6BB6A522E94B6F001C69CA /* Project object */;
 }

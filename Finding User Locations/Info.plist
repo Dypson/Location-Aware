@@ -28,16 +28,16 @@
 	<array>
 		<string>armv7</string>
 	</array>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Because I always want to know where you are!</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Because I want to know where you are!</string>
 	<key>UISupportedInterfaceOrientations</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>Always ask for Permissions</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Ask for Permission when in use.</string>
 	<key>UISupportedInterfaceOrientations~ipad</key>
 	<array>
 		<string>UIInterfaceOrientationPortrait</string>
