@@ -10,9 +10,10 @@ import CoreLocation
 
 class ViewController: UIViewController,CLLocationManagerDelegate {
 
-   
+    @IBOutlet weak var lblDisplay: UILabel!
     @IBOutlet weak var map: MKMapView!
     var locationManager = CLLocationManager()
+    var finalSpeed = ""
     
     
     override func viewDidLoad() {
@@ -22,16 +23,27 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
         locationManager.requestWhenInUseAuthorization()
         locationManager.startUpdatingLocation()
     }
-   
 
-    
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {
-       // print(locations)
         let location:CLLocation = locations[0]
         let center = CLLocationCoordinate2D(latitude: location.coordinate.latitude, longitude: location.coordinate.longitude)
         let region = MKCoordinateRegion(center: center, span: MKCoordinateSpan(latitudeDelta: 0.05, longitudeDelta: 0.05))
+       // print("My location is: "+String(location.speed))
+       
+        let _maxSpeed: Double = Double(finalSpeed.trimmingCharacters(in: .whitespaces))!//Double(lblInput.text!)!
+        let mySpeed: Double = Double(location.speed)
+        print("Maximum Speed Limit: "+finalSpeed+" mph")
+        if mySpeed.isLess(than: _maxSpeed){
+            lblDisplay.text=String(location.speed)+" mph"
+             print("Current Speed: "+String(location.speed)+" mph")
+            }else{
+            print("Speed Limit Crossed: "+String(location.speed)+" mph")
+            }
         self.map.setRegion(region, animated: true)
     }
-
+    
+    @IBAction func dismissSegue(_ sender: Any) {
+        
+    }
 }
 

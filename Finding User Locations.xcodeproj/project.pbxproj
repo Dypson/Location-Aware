@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34A84E7D23A882A800B7299E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34A84E7C23A882A800B7299E /* MainViewController.swift */; };
 		6A6BB6B122E94B6F001C69CA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */; };
 		6A6BB6B322E94B6F001C69CA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B222E94B6F001C69CA /* ViewController.swift */; };
 		6A6BB6B622E94B6F001C69CA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B422E94B6F001C69CA /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		34A84E7C23A882A800B7299E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		6A6BB6AD22E94B6F001C69CA /* Finding User Locations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Finding User Locations.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6A6BB6B222E94B6F001C69CA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				6A6BB6B022E94B6F001C69CA /* AppDelegate.swift */,
 				6A6BB6B222E94B6F001C69CA /* ViewController.swift */,
+				34A84E7C23A882A800B7299E /* MainViewController.swift */,
 				6A6BB6B422E94B6F001C69CA /* Main.storyboard */,
 				6A6BB6BA22E94B70001C69CA /* Assets.xcassets */,
 				6A6BB6BC22E94B70001C69CA /* LaunchScreen.storyboard */,
@@ -153,6 +156,7 @@
 				6A6BB6B922E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld in Sources */,
 				6A6BB6B322E94B6F001C69CA /* ViewController.swift in Sources */,
 				6A6BB6B122E94B6F001C69CA /* AppDelegate.swift in Sources */,
+				34A84E7D23A882A800B7299E /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
