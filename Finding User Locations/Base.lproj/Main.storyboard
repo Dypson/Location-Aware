@@ -98,8 +98,8 @@
                                 <color key="backgroundColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
                             </mapView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-Ns-rNy">
-                                <rect key="frame" x="108" y="0.0" width="221" height="43"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tjY-Ns-rNy">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="30"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -115,7 +115,9 @@
                             <constraint firstItem="tjY-Ns-rNy" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="UUO-hv-NEc"/>
                             <constraint firstItem="6AX-6O-GpE" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bly-m5-Ch0"/>
                             <constraint firstItem="6AX-6O-GpE" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="cxJ-Qg-qc0"/>
+                            <constraint firstItem="tjY-Ns-rNy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="dQr-mO-NWr"/>
                             <constraint firstItem="6AX-6O-GpE" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dhH-Aw-Zhl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tjY-Ns-rNy" secondAttribute="trailing" id="e90-R1-md2"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
